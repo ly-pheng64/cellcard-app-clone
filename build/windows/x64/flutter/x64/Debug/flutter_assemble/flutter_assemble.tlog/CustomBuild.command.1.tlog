@@ -1,0 +1,28 @@
+^D:\LEARN PROGRAM\FLUTTER PROJECT\CELLCAED_APP\BUILD\WINDOWS\X64\CMAKEFILES\75951AA049CECA3459816F655493A063\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\vs\c#\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=D:\learn program\flutter project\cellcaed_app" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=D:\learn program\flutter project\cellcaed_app\windows\flutter\ephemeral" "PROJECT_DIR=D:\learn program\flutter project\cellcaed_app" "FLUTTER_TARGET=D:\learn program\flutter project\cellcaed_app\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lZGQ4NTQ2MTE2NDU3YmRmMWM1YmRmYjEzZWNiOTQ2M2QyYmI1ZWQ0Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\learn program\flutter project\cellcaed_app\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LEARN PROGRAM\FLUTTER PROJECT\CELLCAED_APP\BUILD\WINDOWS\X64\CMAKEFILES\609F3BAC623765E9512211F0A3813E0D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LEARN PROGRAM\FLUTTER PROJECT\CELLCAED_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\vs\c#\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/learn program/flutter project/cellcaed_app/windows" "-BD:/learn program/flutter project/cellcaed_app/build/windows/x64" --check-stamp-file "D:/learn program/flutter project/cellcaed_app/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

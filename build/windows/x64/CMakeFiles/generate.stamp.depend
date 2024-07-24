@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+D:/learn program/flutter project/cellcaed_app/build/windows/x64/CMakeFiles/3.28.3-msvc11/CMakeCXXCompiler.cmake
+D:/learn program/flutter project/cellcaed_app/build/windows/x64/CMakeFiles/3.28.3-msvc11/CMakeRCCompiler.cmake
+D:/learn program/flutter project/cellcaed_app/build/windows/x64/CMakeFiles/3.28.3-msvc11/CMakeSystem.cmake
+D:/learn program/flutter project/cellcaed_app/windows/CMakeLists.txt
+D:/learn program/flutter project/cellcaed_app/windows/flutter/generated_plugins.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+D:/vs/c#/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake

@@ -1,0 +1,10 @@
+^D:\LEARN PROGRAM\FLUTTER PROJECT\CELLCAED_APP\BUILD\WINDOWS\X64\CMAKEFILES\92EE9B65F97A970BB809EDF253F763D9\GENERATE.STAMP.RULE
+setlocal
+"D:\vs\c#\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/learn program/flutter project/cellcaed_app/windows" "-BD:/learn program/flutter project/cellcaed_app/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/learn program/flutter project/cellcaed_app/build/windows/x64/cellcaed_app.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
