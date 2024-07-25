@@ -71,7 +71,7 @@ class more extends StatelessWidget {
       body: Expanded(
         child: Padding(
           padding:
-              const EdgeInsets.only(top: 15, left: 20, right: 20, bottom: 10),
+              const EdgeInsets.only(top: 15, left: 20, right: 20, bottom: 20),
           child: Column(
             children: [
               buildCard([
@@ -118,7 +118,7 @@ class more extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) =>  const Tutorial(),
+                        builder: (context) => const Tutorial(),
                       ),
                     );
                   },
@@ -167,7 +167,7 @@ class more extends StatelessWidget {
                   child: buildRow('images/a9.png', 'About'),
                 ),
               ]),
-              const SizedBox(height: 13),
+              const SizedBox(height: 30),
               ElevatedButton(
                 onPressed: () {
                   // Handle button press

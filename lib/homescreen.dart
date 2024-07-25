@@ -427,7 +427,7 @@ class _HomescreenState extends State<Homescreen> {
             ),
             SizedBox(
               width: MediaQuery.of(context).size.width,
-              height: 225,
+              height: 230,
               child: CarouselSlider.builder(
                 itemCount: myitem.length,
                 itemBuilder: (BuildContext context, int index, int realIndex) {
@@ -491,7 +491,7 @@ class _HomescreenState extends State<Homescreen> {
                           height: 8,
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8),
+                          padding: const EdgeInsets.only(left: 5, right: 5),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
@@ -507,7 +507,7 @@ class _HomescreenState extends State<Homescreen> {
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: Colors.blue,
                                   padding: const EdgeInsets.symmetric(
-                                      horizontal: 14, vertical: 18),
+                                      horizontal: 14, vertical: 10),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(8),
                                   ),
@@ -515,7 +515,7 @@ class _HomescreenState extends State<Homescreen> {
                                 child: const Text(
                                   'Subscribe',
                                   style: TextStyle(
-                                      fontSize: 10, color: Colors.white),
+                                      fontSize: 12, color: Colors.white),
                                 ),
                               ),
                             ],
@@ -641,7 +641,7 @@ class _HomescreenState extends State<Homescreen> {
                                         style: ElevatedButton.styleFrom(
                                           backgroundColor: Colors.blue,
                                           padding: const EdgeInsets.symmetric(
-                                              horizontal: 10, vertical: 18),
+                                              horizontal: 10, vertical: 10),
                                           shape: RoundedRectangleBorder(
                                             borderRadius:
                                                 BorderRadius.circular(8),
@@ -650,7 +650,7 @@ class _HomescreenState extends State<Homescreen> {
                                         child: const Text(
                                           'Renew Now',
                                           style: TextStyle(
-                                              fontSize: 10,
+                                              fontSize: 12,
                                               color: Colors.white),
                                         ),
                                       ),
@@ -836,7 +836,7 @@ class _HomescreenState extends State<Homescreen> {
                             borderRadius: BorderRadius.circular(10),
                             child: Container(
                               width: 100,
-                              height: 110,
+                              height: 116,
                               color: Colors.white,
                               child: Padding(
                                 padding:
