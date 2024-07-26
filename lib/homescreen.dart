@@ -446,28 +446,28 @@ class _HomescreenState extends State<Homescreen> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Cellcard_Serey(),
+                                  builder: (context) => const Cellcard_Serey(),
                                 ),
                               );
                             } else if (index == 1) {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => hotpromos_detail2(),
+                                  builder: (context) => const hotpromos_detail2(),
                                 ),
                               );
                             } else if (index == 2) {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => hotpromos_detail(),
+                                  builder: (context) => const hotpromos_detail(),
                                 ),
                               );
                             } else if (index == 3) {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => game2(),
+                                  builder: (context) => const game2(),
                                 ),
                               );
                             }

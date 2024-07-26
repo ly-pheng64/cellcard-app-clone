@@ -30,7 +30,7 @@ class hotpromos_detail extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
+            SizedBox(
               width: double.infinity,
               height: 160,
               child: Image.asset(
@@ -89,7 +89,7 @@ class hotpromos_detail extends StatelessWidget {
       ),
       bottomNavigationBar: Container(
         color: Colors.white,
-        padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
         child: ElevatedButton(
           onPressed: () {
             // Handle button press

@@ -31,7 +31,7 @@ class top_up3 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: EdgeInsets.only(left: 20, right: 20, top: 5),
+              padding: const EdgeInsets.only(left: 20, right: 20, top: 5),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -67,12 +67,12 @@ class top_up3 extends StatelessWidget {
                 ),
               ),
             ),
-            Divider(
+            const Divider(
               indent: 20,
               endIndent: 20,
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 20, right: 20),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, right: 20),
               child: Text('Was this information helpful?'),
             ),
             Padding(
@@ -87,12 +87,12 @@ class top_up3 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(8),
                       ),
                     ),
-                    child: Text(
+                    child: const Text(
                       '🤩yes',
                       style: TextStyle(color: Colors.black),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 10,
                   ),
                   ElevatedButton(
@@ -103,7 +103,7 @@ class top_up3 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(8),
                       ),
                     ),
-                    child: Text(
+                    child: const Text(
                       '🥲No',
                       style: TextStyle(color: Colors.black),
                     ),
@@ -111,7 +111,7 @@ class top_up3 extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
           ],

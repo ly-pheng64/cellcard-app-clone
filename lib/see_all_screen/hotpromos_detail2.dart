@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class hotpromos_detail2 extends StatelessWidget {
   const hotpromos_detail2({super.key});
@@ -31,7 +30,7 @@ class hotpromos_detail2 extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
+            SizedBox(
               width: double.infinity,
               height: 160,
               child: Image.asset(
@@ -79,7 +78,7 @@ class hotpromos_detail2 extends StatelessWidget {
                   ),
                   const Text(
                     '30Mbps - 50Mbps: ideal for small households or 3-5 devices for browsing local content or streaming HD videos.',
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 12,
                     ),
                   ),

@@ -9,7 +9,6 @@ import 'package:cellcaed_app/more-screen/tutorial/top_up3.dart';
 import 'package:cellcaed_app/more-screen/tutorial/top_up4.dart';
 import 'package:cellcaed_app/more-screen/tutorial/top_up5.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Tutorial extends StatefulWidget {
   const Tutorial({super.key});
@@ -156,11 +155,11 @@ class _TutorialState extends State<Tutorial>
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => top_up1(),
+                                      builder: (context) => const top_up1(),
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z43.png',
                                   text: 'Top Up For Own Number',
                                 ),
@@ -170,11 +169,11 @@ class _TutorialState extends State<Tutorial>
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => top_up2(),
+                                      builder: (context) => const top_up2(),
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z43.png',
                                   text: 'Top Up For another Number',
                                 ),
@@ -184,11 +183,11 @@ class _TutorialState extends State<Tutorial>
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => top_up3(),
+                                      builder: (context) => const top_up3(),
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z44.png',
                                   text: 'Set Schedule Top Up ',
                                 ),
@@ -198,11 +197,11 @@ class _TutorialState extends State<Tutorial>
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => top_up4(),
+                                      builder: (context) => const top_up4(),
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z45.jpg',
                                   text: 'Link Credit/Debit Card ',
                                 ),
@@ -212,11 +211,11 @@ class _TutorialState extends State<Tutorial>
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => top_up5(),
+                                      builder: (context) => const top_up5(),
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z45.jpg',
                                   text:
                                       'Link Bank account for a faster & easier top up ',
@@ -229,18 +228,18 @@ class _TutorialState extends State<Tutorial>
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.all(15),
+                    padding: const EdgeInsets.all(15),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                           'Buy Plan & Services',
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
                           ),
                         ),
-                        SizedBox(height: 15),
+                        const SizedBox(height: 15),
                         Expanded(
                           child: GridView.count(
                             crossAxisSpacing: 15,
@@ -256,7 +255,7 @@ class _TutorialState extends State<Tutorial>
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z46.jpg',
                                   text: 'subscribe Add-on plan',
                                 ),
@@ -270,7 +269,7 @@ class _TutorialState extends State<Tutorial>
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z46.jpg',
                                   text: 'Send gift to another',
                                 ),
@@ -284,7 +283,7 @@ class _TutorialState extends State<Tutorial>
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/z46.jpg',
                                   text: 'subscribe Value Added Services',
                                 ),
@@ -323,7 +322,7 @@ class _TutorialState extends State<Tutorial>
                                     ),
                                   );
                                 },
-                                child: Card1(
+                                child: const Card1(
                                   imagePath: 'images/f2.png',
                                   text: 'Update profile',
                                 ),

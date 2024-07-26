@@ -65,7 +65,7 @@ class _SeeAllState extends State<SeeAll> with SingleTickerProviderStateMixin {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => EvenDetail(),
+                builder: (context) => const EvenDetail(),
               ),
             );
           },
@@ -93,7 +93,7 @@ class _SeeAllState extends State<SeeAll> with SingleTickerProviderStateMixin {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => hotpromos_detail(),
+                builder: (context) => const hotpromos_detail(),
               ),
             );
           },
@@ -105,7 +105,7 @@ class _SeeAllState extends State<SeeAll> with SingleTickerProviderStateMixin {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => hotpromos_detail2(),
+                builder: (context) => const hotpromos_detail2(),
               ),
             );
           },
@@ -133,7 +133,7 @@ class _SeeAllState extends State<SeeAll> with SingleTickerProviderStateMixin {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => game1(),
+                  builder: (context) => const game1(),
                 ),
               );
             },
@@ -144,7 +144,7 @@ class _SeeAllState extends State<SeeAll> with SingleTickerProviderStateMixin {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => game2(),
+                  builder: (context) => const game2(),
                 ),
               );
             },
